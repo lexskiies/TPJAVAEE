@@ -4,9 +4,17 @@
         <servlet-name>verifAthentification</servlet-name>
         <servlet-class>verifAthentification</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CreationClient</servlet-name>
+        <servlet-class>tp.servlets.CreationClient</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>verifAthentification</servlet-name>
         <url-pattern>/verifAthentification</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreationClient</servlet-name>
+        <url-pattern>/creationClient</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
