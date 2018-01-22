@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iBuy</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<meta charset="UTF-8">
+</head>
+<header>
+		<h1><i class="fab fa-apple"></i>iBuy</h1>
+	<a href="commande.html"><i class="fas fa-clipboard"></i> Mes commandes</a>
+	<a href="panier.html"><i class="fas fa-shopping-cart"></i> Panier</a>
+	<a href="compte.html"><i class="fas fa-user"></i> Mon compte</a>
+	<a href="identification.html"><i class="fas fa-sign-out-alt"></i> Se deconnecter</a>
+</header>
+<body>
+    <div id="content">
+        <div class="types">
+            <img src="ressources/rouge.png">
+            <form method="post" action="panier.jsp">
+                <input type="hidden" value="0.9" name="montant">
+                <input type="hidden" value="rouge" name="nom">
+                <input type="submit" value="0.9$">
+            </form>
+	</div>
+        <div class="types">
+            <img src="ressources/verte.png">
+            <form method="post" action="panier.jsp">
+                <input type="hidden" value="9.9" name="prix">
+                <input type="submit" value="9.9$">
+            </form>
+	</div>
+        <div class="types">
+            <img src="ressources/multicolore.png">
+            <form method="post" action="panier.jsp">
+                <input type="hidden" value="99.9" name="prix">
+                <input type="submit" value="99.9$">
+            </form>
+	</div>
+    </div>
+</body>
+</html>

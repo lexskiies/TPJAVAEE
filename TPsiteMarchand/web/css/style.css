@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; } body {line-height: 1; } ol, ul {list-style: none; } blockquote, q {quotes: none; } blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none; } table {border-collapse: collapse; border-spacing: 0; }
+h1,h2,h3,p,table,label,input,a{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+#cadre{
+	display: block;
+	max-width: 400px;
+	width: 100%;
+	background-color: #eee;
+	margin: 50px auto 0 auto;
+	padding: 20px;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+h2{
+	font-size: 26px;
+	padding: 10px 0;
+	text-align: center;
+}
+header a{
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 0 10px;
+}
+label{
+	margin: 5px 0;
+}
+input{
+	margin: 5px 0;
+	width: 100%;
+}
+#content{
+	margin: auto;
+	width: 100%;
+	max-width: 840px;
+	margin-top: 100px;
+}
+.types{
+	margin: 20px;
+	width: 200px;
+	float: left;
+	padding: 20px;
+	background-color: #eee;
+}
+.types img{
+	width: 100%;
+	margin: 20px 0;
+}
+.types p{
+	text-align: center;
+}
+.types .acheter{
+	background-color: #000;
+	display: block;
+	width: auto;
+}
+.acheter{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px;
+}
+i{
+	text-decoration: none;
+	color: #000;
+}
+table{
+	width: 100%;
+	background-color: #fff;
+	margin: 20px 0;
+}
+td{
+	border:1px solid black;
+	padding: 10px;
+}
+.fa-apple{
+	color: #fff;
+}
+.login{
+	display: block;
+	text-align: center;
+	color: #888;
+	text-decoration: none;
+}
+input[type="submit"]{
+	display: block;
+	background-color: #000;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+header h1{
+	display: inline-block;
+	padding:5px 20px;
+}
+p{
+    margin: 5px 0;
+}

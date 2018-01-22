@@ -7,8 +7,9 @@ package tp.beans;
 
 /**
  *
- * @author alexi
+ * @author solal
  */
+
 public class Client {
     /* Propriétés du bean */
     private String nom;
@@ -26,13 +27,6 @@ public class Client {
         return nom;
     }
 
-    public void setMdp(String mdp){
-        this.mdp = mdp;
-    }
-
-    public String getMdp(){
-        return mdp;
-    }
     public void setPrenom( String prenom ) {
         this.prenom = prenom;
     }
@@ -63,5 +57,13 @@ public class Client {
 
     public String getEmail() {
         return email;
+    }
+
+    public void setMdp(String mdp) {
+        this.mdp = mdp;
+    }
+    
+    public String getMdp() {
+        return mdp;
     }
 }
